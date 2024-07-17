@@ -1,0 +1,327 @@
+init all axi devices...
+Succefully initialized Server... 
+App-Server started..
+Waiting for client to connect to Socket..
+Client connected to Socket...
+... waiting for next command
+
+### Received new DAC-Config ###
+DAC id: 1
+Config RedPitaya-DAC-Controller.... 
+... waiting for next command
+
+### Received new BRAM-DAC-config ###
+# Config DAC-BRAM-Controller Port-0:
+# Connected with DAC-Device 1: 
+# Selecting no_steps: 125
+# Selecting dwell_time_delay: 10
+# Selecting rep_delay: 0
+# Selecting Handshake Enable: 0
+Wrote LUT-Values inside BRAM-DAC-Port 0 from file lut/lut_port0.csv
+... waiting for next command
+###### Started LUT-DAC-Output for port 0 ######
+... waiting for next command
+
+### Received new ADC-Config ###
+### Configuring RP-ADC ###
+#### Configured RP-ADC with: SR-Divider: 1 | BURST_SIZE: 10 
+... waiting for next command
+
+### Received new RAM-Init-Config ###
+
+Initalizing RAM
+STS-Width-Mask: 0xffff | RAM-Size: 131072 bytes
+
+... waiting for next command
+received start ADC-Sampling command...
+##### Start ADC-RAM-TCP-Writer in Block-Mode for 2 TCP-Packages #####
+Done sampling ADC...
+... waiting for next command
+
+### Received new DAC-Config ###
+DAC id: 1
+Config RedPitaya-DAC-Controller.... 
+... waiting for next command
+
+### Received new BRAM-DAC-config ###
+# Config DAC-BRAM-Controller Port-0:
+# Connected with DAC-Device 1: 
+# Selecting no_steps: 125
+# Selecting dwell_time_delay: 5
+# Selecting rep_delay: 0
+# Selecting Handshake Enable: 0
+Wrote LUT-Values inside BRAM-DAC-Port 0 from file lut/lut_port0.csv
+... waiting for next command
+###### Started LUT-DAC-Output for port 0 ######
+... waiting for next command
+
+### Received new ADC-Config ###
+### Configuring RP-ADC ###
+#### Configured RP-ADC with: SR-Divider: 1 | BURST_SIZE: 5 
+... waiting for next command
+
+### Received new RAM-Init-Config ###
+
+Initalizing RAM
+STS-Width-Mask: 0xffff | RAM-Size: 131072 bytes
+
+... waiting for next command
+received start ADC-Sampling command...
+##### Start ADC-RAM-TCP-Writer in Block-Mode for 2 TCP-Packages #####
+Done sampling ADC...
+... waiting for next command
+
+### Received new DAC-Config ###
+DAC id: 1
+Config RedPitaya-DAC-Controller.... 
+... waiting for next command
+
+### Received new BRAM-DAC-config ###
+# Config DAC-BRAM-Controller Port-0:
+# Connected with DAC-Device 1: 
+# Selecting no_steps: 125
+# Selecting dwell_time_delay: 3
+# Selecting rep_delay: 0
+# Selecting Handshake Enable: 0
+Wrote LUT-Values inside BRAM-DAC-Port 0 from file lut/lut_port0.csv
+... waiting for next command
+###### Started LUT-DAC-Output for port 0 ######
+... waiting for next command
+
+### Received new ADC-Config ###
+### Configuring RP-ADC ###
+#### Configured RP-ADC with: SR-Divider: 1 | BURST_SIZE: 4 
+... waiting for next command
+
+### Received new RAM-Init-Config ###
+
+Initalizing RAM
+STS-Width-Mask: 0xffff | RAM-Size: 131072 bytes
+
+... waiting for next command
+received start ADC-Sampling command...
+##### Start ADC-RAM-TCP-Writer in Block-Mode for 2 TCP-Packages #####
+Done sampling ADC...
+... waiting for next command
+
+### Received new DAC-Config ###
+DAC id: 1
+Config RedPitaya-DAC-Controller.... 
+... waiting for next command
+
+### Received new BRAM-DAC-config ###
+# Config DAC-BRAM-Controller Port-0:
+# Connected with DAC-Device 1: 
+# Selecting no_steps: 125
+# Selecting dwell_time_delay: 2
+# Selecting rep_delay: 0
+# Selecting Handshake Enable: 0
+Wrote LUT-Values inside BRAM-DAC-Port 0 from file lut/lut_port0.csv
+... waiting for next command
+###### Started LUT-DAC-Output for port 0 ######
+... waiting for next command
+
+### Received new ADC-Config ###
+### Configuring RP-ADC ###
+#### Configured RP-ADC with: SR-Divider: 1 | BURST_SIZE: 3 
+... waiting for next command
+
+### Received new RAM-Init-Config ###
+
+Initalizing RAM
+STS-Width-Mask: 0xffff | RAM-Size: 131072 bytes
+
+... waiting for next command
+received start ADC-Sampling command...
+##### Start ADC-RAM-TCP-Writer in Block-Mode for 2 TCP-Packages #####
+Done sampling ADC...
+... waiting for next command
+
+### Received new DAC-Config ###
+DAC id: 1
+Config RedPitaya-DAC-Controller.... 
+... waiting for next command
+
+### Received new BRAM-DAC-config ###
+# Config DAC-BRAM-Controller Port-0:
+# Connected with DAC-Device 1: 
+# Selecting no_steps: 125
+# Selecting dwell_time_delay: 2
+# Selecting rep_delay: 0
+# Selecting Handshake Enable: 0
+Wrote LUT-Values inside BRAM-DAC-Port 0 from file lut/lut_port0.csv
+... waiting for next command
+###### Started LUT-DAC-Output for port 0 ######
+... waiting for next command
+
+### Received new ADC-Config ###
+### Configuring RP-ADC ###
+#### Configured RP-ADC with: SR-Divider: 1 | BURST_SIZE: 2 
+... waiting for next command
+
+### Received new RAM-Init-Config ###
+
+Initalizing RAM
+STS-Width-Mask: 0xffff | RAM-Size: 131072 bytes
+
+... waiting for next command
+received start ADC-Sampling command...
+##### Start ADC-RAM-TCP-Writer in Block-Mode for 2 TCP-Packages #####
+Done sampling ADC...
+... waiting for next command
+
+### Received new DAC-Config ###
+DAC id: 1
+Config RedPitaya-DAC-Controller.... 
+... waiting for next command
+
+### Received new BRAM-DAC-config ###
+# Config DAC-BRAM-Controller Port-0:
+# Connected with DAC-Device 1: 
+# Selecting no_steps: 125
+# Selecting dwell_time_delay: 1
+# Selecting rep_delay: 0
+# Selecting Handshake Enable: 0
+Wrote LUT-Values inside BRAM-DAC-Port 0 from file lut/lut_port0.csv
+... waiting for next command
+###### Started LUT-DAC-Output for port 0 ######
+... waiting for next command
+
+### Received new ADC-Config ###
+### Configuring RP-ADC ###
+#### Configured RP-ADC with: SR-Divider: 1 | BURST_SIZE: 2 
+... waiting for next command
+
+### Received new RAM-Init-Config ###
+
+Initalizing RAM
+STS-Width-Mask: 0xffff | RAM-Size: 131072 bytes
+
+... waiting for next command
+received start ADC-Sampling command...
+##### Start ADC-RAM-TCP-Writer in Block-Mode for 2 TCP-Packages #####
+Done sampling ADC...
+... waiting for next command
+
+### Received new DAC-Config ###
+DAC id: 1
+Config RedPitaya-DAC-Controller.... 
+... waiting for next command
+
+### Received new BRAM-DAC-config ###
+# Config DAC-BRAM-Controller Port-0:
+# Connected with DAC-Device 1: 
+# Selecting no_steps: 125
+# Selecting dwell_time_delay: 1
+# Selecting rep_delay: 0
+# Selecting Handshake Enable: 0
+Wrote LUT-Values inside BRAM-DAC-Port 0 from file lut/lut_port0.csv
+... waiting for next command
+###### Started LUT-DAC-Output for port 0 ######
+... waiting for next command
+
+### Received new ADC-Config ###
+### Configuring RP-ADC ###
+#### Configured RP-ADC with: SR-Divider: 1 | BURST_SIZE: 2 
+... waiting for next command
+
+### Received new RAM-Init-Config ###
+
+Initalizing RAM
+STS-Width-Mask: 0xffff | RAM-Size: 131072 bytes
+
+... waiting for next command
+received start ADC-Sampling command...
+##### Start ADC-RAM-TCP-Writer in Block-Mode for 2 TCP-Packages #####
+Done sampling ADC...
+... waiting for next command
+
+### Received new DAC-Config ###
+DAC id: 1
+Config RedPitaya-DAC-Controller.... 
+... waiting for next command
+
+### Received new BRAM-DAC-config ###
+# Config DAC-BRAM-Controller Port-0:
+# Connected with DAC-Device 1: 
+# Selecting no_steps: 125
+# Selecting dwell_time_delay: 1
+# Selecting rep_delay: 0
+# Selecting Handshake Enable: 0
+Wrote LUT-Values inside BRAM-DAC-Port 0 from file lut/lut_port0.csv
+... waiting for next command
+###### Started LUT-DAC-Output for port 0 ######
+... waiting for next command
+
+### Received new ADC-Config ###
+### Configuring RP-ADC ###
+#### Configured RP-ADC with: SR-Divider: 1 | BURST_SIZE: 2 
+... waiting for next command
+
+### Received new RAM-Init-Config ###
+
+Initalizing RAM
+STS-Width-Mask: 0xffff | RAM-Size: 131072 bytes
+
+... waiting for next command
+received start ADC-Sampling command...
+##### Start ADC-RAM-TCP-Writer in Block-Mode for 2 TCP-Packages #####
+Done sampling ADC...
+... waiting for next command
+
+### Received new DAC-Config ###
+DAC id: 1
+Config RedPitaya-DAC-Controller.... 
+... waiting for next command
+
+### Received new BRAM-DAC-config ###
+# Config DAC-BRAM-Controller Port-0:
+# Connected with DAC-Device 1: 
+# Selecting no_steps: 125
+# Selecting dwell_time_delay: 1
+# Selecting rep_delay: 0
+# Selecting Handshake Enable: 0
+Wrote LUT-Values inside BRAM-DAC-Port 0 from file lut/lut_port0.csv
+... waiting for next command
+###### Started LUT-DAC-Output for port 0 ######
+... waiting for next command
+
+### Received new ADC-Config ###
+### Configuring RP-ADC ###
+#### Configured RP-ADC with: SR-Divider: 1 | BURST_SIZE: 2 
+... waiting for next command
+
+### Received new RAM-Init-Config ###
+
+Initalizing RAM
+STS-Width-Mask: 0xffff | RAM-Size: 131072 bytes
+
+... waiting for next command
+received start ADC-Sampling command...
+##### Start ADC-RAM-TCP-Writer in Block-Mode for 2 TCP-Packages #####
+Done sampling ADC...
+... waiting for next command
+
+### Received new DAC-Config ###
+DAC id: 1
+Config RedPitaya-DAC-Controller.... 
+... waiting for next command
+
+### Received new BRAM-DAC-config ###
+# Config DAC-BRAM-Controller Port-0:
+# Connected with DAC-Device 1: 
+# Selecting no_steps: 125
+# Selecting dwell_time_delay: 1
+# Selecting rep_delay: 0
+# Selecting Handshake Enable: 0
+Wrote LUT-Values inside BRAM-DAC-Port 0 from file lut/lut_port0.csv
+... waiting for next command
+###### Started LUT-DAC-Output for port 0 ######
+... waiting for next command
+
+### Received new ADC-Config ###
+### Configuring RP-ADC ###
+#### Configured RP-ADC with: SR-Divider: 1 | BURST_SIZE: 1 
+... waiting for next command
+
+### Received new RAM-Init-Config ###
