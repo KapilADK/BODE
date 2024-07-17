@@ -1,0 +1,294 @@
+
+    ____             __ ____   _  __
+   / __ \ ___   ____/ // __ \ (_)/ /_ ____ _ __  __ ____ _
+  / /_/ // _ \ / __  // /_/ // // __// __ `// / / // __ `/
+ / _, _//  __// /_/ // ____// // /_ / /_/ // /_/ // /_/ /
+/_/ |_| \___/ \__,_//_/    /_/ \__/ \__,_/ \__, / \__,_/
+                                          /____/
+
+Scanning Port at 10.42.0.1 for RedpitayaBoard...
+Found RedpitayaBoard at 10.42.0.124
+RedPitayaBoard RP1 connected succesfully!
+###################################################################
+# LUT-Setup
+# Wrote LUT-Values to ./lut_port0.csv
+send file: ./lut_port0.csv to root@10.42.0.124:app/lut/lut_port0.csv
+###################################################################
+# DAC-BRAM-CTRL-Config @ Port 0:
+# Requested dwell-time 8e-05ms equals applied dwell-time!
+# Requested rep-delay 0.0ms was applied
+###################################################################
+Configuration set successfully!
+
+Start Laser Tuning...
+DAC-Sweep started
+###################################################################
+# ADC-Config:
+# Select sample-rate-divider=1 for sample-rate=125MHz
+# Syncing DAC @ 12.5MHz with ADC @ 125MHz
+# ADC configured for Oversampling
+# Evenly spaced ADC-Samples for burst-size = 10.0
+# Applied Burst-Size: 10
+# Applied ADC-Samples/Sweep: 1250
+# Configured ADC in Sync-Mode for 104 DAC-Sweeps:
+# Measure-Time-Span: 1.04ms
+###################################################################
+start sampling 2 TCP-Packages...
+received all data from RedPitaya
+###################################################################
+# LUT-Setup
+# Wrote LUT-Values to ./lut_port0.csv
+send file: ./lut_port0.csv to root@10.42.0.124:app/lut/lut_port0.csv
+###################################################################
+# DAC-BRAM-CTRL-Config @ Port 0:
+# Requested dwell-time 4e-05ms equals applied dwell-time!
+# Requested rep-delay 0.0ms was applied
+###################################################################
+Configuration set successfully!
+
+Start Laser Tuning...
+DAC-Sweep started
+###################################################################
+# ADC-Config:
+# Select sample-rate-divider=1 for sample-rate=125MHz
+# Syncing DAC @ 25.0MHz with ADC @ 125MHz
+# ADC configured for Oversampling
+# Evenly spaced ADC-Samples for burst-size = 5.0
+# Applied Burst-Size: 5
+# Applied ADC-Samples/Sweep: 625
+# Configured ADC in Sync-Mode for 209 DAC-Sweeps:
+# Measure-Time-Span: 1.0450000000000002ms
+###################################################################
+start sampling 2 TCP-Packages...
+received all data from RedPitaya
+###################################################################
+# LUT-Setup
+# Wrote LUT-Values to ./lut_port0.csv
+send file: ./lut_port0.csv to root@10.42.0.124:app/lut/lut_port0.csv
+###################################################################
+# DAC-BRAM-CTRL-Config @ Port 0:
+# ERROR: Requested dwell-time does not equal applied dwell-time!
+# ERROR: The deviation is 3ns
+# ERROR: Selecting 2.4e-05ms instead of 2.6666666666666667e-05ms
+# ERROR: Selecting 41.666667MHz instead of 37.5MHz
+# Requested rep-delay 0.0ms was applied
+###################################################################
+Configuration set successfully!
+
+Start Laser Tuning...
+DAC-Sweep started
+###################################################################
+# ADC-Config:
+# Select sample-rate-divider=1 for sample-rate=125MHz
+# Syncing DAC @ 37.5MHz with ADC @ 125MHz
+# ADC configured for Oversampling
+# Non-Evenly spaced ADC-Sample for burst-size = 3.3333333333333335
+# Time-Gap: 0.018666666666666668us
+# Applied Burst-Size: 4
+# Applied ADC-Samples/Sweep: 500
+# Configured ADC in Sync-Mode for 262 DAC-Sweeps:
+# Measure-Time-Span: 0.8733333333333333ms
+###################################################################
+start sampling 2 TCP-Packages...
+received all data from RedPitaya
+###################################################################
+# LUT-Setup
+# Wrote LUT-Values to ./lut_port0.csv
+send file: ./lut_port0.csv to root@10.42.0.124:app/lut/lut_port0.csv
+###################################################################
+# DAC-BRAM-CTRL-Config @ Port 0:
+# ERROR: Requested dwell-time does not equal applied dwell-time!
+# ERROR: The deviation is 4ns
+# ERROR: Selecting 1.6e-05ms instead of 2e-05ms
+# ERROR: Selecting 62.5MHz instead of 50.0MHz
+# Requested rep-delay 0.0ms was applied
+###################################################################
+Configuration set successfully!
+
+Start Laser Tuning...
+DAC-Sweep started
+###################################################################
+# ADC-Config:
+# Select sample-rate-divider=1 for sample-rate=125MHz
+# Syncing DAC @ 50.0MHz with ADC @ 125MHz
+# ADC configured for Oversampling
+# Non-Evenly spaced ADC-Sample for burst-size = 2.5
+# Time-Gap: 0.012us
+# Applied Burst-Size: 3
+# Applied ADC-Samples/Sweep: 375
+# Configured ADC in Sync-Mode for 349 DAC-Sweeps:
+# Measure-Time-Span: 0.8725ms
+###################################################################
+start sampling 2 TCP-Packages...
+received all data from RedPitaya
+###################################################################
+# LUT-Setup
+# Wrote LUT-Values to ./lut_port0.csv
+send file: ./lut_port0.csv to root@10.42.0.124:app/lut/lut_port0.csv
+###################################################################
+# DAC-BRAM-CTRL-Config @ Port 0:
+# Requested dwell-time 1.6e-05ms equals applied dwell-time!
+# Requested rep-delay 0.0ms was applied
+###################################################################
+Configuration set successfully!
+
+Start Laser Tuning...
+DAC-Sweep started
+###################################################################
+# ADC-Config:
+# Select sample-rate-divider=1 for sample-rate=125MHz
+# Syncing DAC @ 62.5MHz with ADC @ 125MHz
+# ADC configured for Oversampling
+# Evenly spaced ADC-Samples for burst-size = 2.0
+# Applied Burst-Size: 2
+# Applied ADC-Samples/Sweep: 250
+# Configured ADC in Sync-Mode for 524 DAC-Sweeps:
+# Measure-Time-Span: 1.048ms
+###################################################################
+start sampling 2 TCP-Packages...
+received all data from RedPitaya
+###################################################################
+# LUT-Setup
+# Wrote LUT-Values to ./lut_port0.csv
+send file: ./lut_port0.csv to root@10.42.0.124:app/lut/lut_port0.csv
+###################################################################
+# DAC-BRAM-CTRL-Config @ Port 0:
+# ERROR: Requested dwell-time does not equal applied dwell-time!
+# ERROR: The deviation is 5ns
+# ERROR: Selecting 8e-06ms instead of 1.3333333333333333e-05ms
+# ERROR: Selecting 125.0MHz instead of 75.0MHz
+# Requested rep-delay 0.0ms was applied
+###################################################################
+Configuration set successfully!
+
+Start Laser Tuning...
+DAC-Sweep started
+###################################################################
+# ADC-Config:
+# Select sample-rate-divider=1 for sample-rate=125MHz
+# Syncing DAC @ 75.0MHz with ADC @ 125MHz
+# ADC configured for Oversampling
+# Non-Evenly spaced ADC-Sample for burst-size = 1.6666666666666667
+# Time-Gap: 0.005333333333333334us
+# Applied Burst-Size: 2
+# Applied ADC-Samples/Sweep: 250
+# Configured ADC in Sync-Mode for 524 DAC-Sweeps:
+# Measure-Time-Span: 0.8733333333333333ms
+###################################################################
+start sampling 2 TCP-Packages...
+received all data from RedPitaya
+###################################################################
+# LUT-Setup
+# Wrote LUT-Values to ./lut_port0.csv
+send file: ./lut_port0.csv to root@10.42.0.124:app/lut/lut_port0.csv
+###################################################################
+# DAC-BRAM-CTRL-Config @ Port 0:
+# ERROR: Requested dwell-time does not equal applied dwell-time!
+# ERROR: The deviation is 3ns
+# ERROR: Selecting 8e-06ms instead of 1.1428571428571429e-05ms
+# ERROR: Selecting 125.0MHz instead of 87.5MHz
+# Requested rep-delay 0.0ms was applied
+###################################################################
+Configuration set successfully!
+
+Start Laser Tuning...
+DAC-Sweep started
+###################################################################
+# ADC-Config:
+# Select sample-rate-divider=1 for sample-rate=125MHz
+# Syncing DAC @ 87.5MHz with ADC @ 125MHz
+# ADC configured for Oversampling
+# Non-Evenly spaced ADC-Sample for burst-size = 1.4285714285714286
+# Time-Gap: 0.0034285714285714284us
+# Applied Burst-Size: 2
+# Applied ADC-Samples/Sweep: 250
+# Configured ADC in Sync-Mode for 524 DAC-Sweeps:
+# Measure-Time-Span: 0.7485714285714286ms
+###################################################################
+start sampling 2 TCP-Packages...
+received all data from RedPitaya
+###################################################################
+# LUT-Setup
+# Wrote LUT-Values to ./lut_port0.csv
+send file: ./lut_port0.csv to root@10.42.0.124:app/lut/lut_port0.csv
+###################################################################
+# DAC-BRAM-CTRL-Config @ Port 0:
+# ERROR: Requested dwell-time does not equal applied dwell-time!
+# ERROR: The deviation is 2ns
+# ERROR: Selecting 8e-06ms instead of 1e-05ms
+# ERROR: Selecting 125.0MHz instead of 100.0MHz
+# Requested rep-delay 0.0ms was applied
+###################################################################
+Configuration set successfully!
+
+Start Laser Tuning...
+DAC-Sweep started
+###################################################################
+# ADC-Config:
+# Select sample-rate-divider=1 for sample-rate=125MHz
+# Syncing DAC @ 100.0MHz with ADC @ 125MHz
+# ADC configured for Oversampling
+# Non-Evenly spaced ADC-Sample for burst-size = 1.25
+# Time-Gap: 0.002us
+# Applied Burst-Size: 2
+# Applied ADC-Samples/Sweep: 250
+# Configured ADC in Sync-Mode for 524 DAC-Sweeps:
+# Measure-Time-Span: 0.655ms
+###################################################################
+start sampling 2 TCP-Packages...
+received all data from RedPitaya
+###################################################################
+# LUT-Setup
+# Wrote LUT-Values to ./lut_port0.csv
+send file: ./lut_port0.csv to root@10.42.0.124:app/lut/lut_port0.csv
+###################################################################
+# DAC-BRAM-CTRL-Config @ Port 0:
+# ERROR: Requested dwell-time does not equal applied dwell-time!
+# ERROR: The deviation is 1ns
+# ERROR: Selecting 8e-06ms instead of 8.888888888888888e-06ms
+# ERROR: Selecting 125.0MHz instead of 112.5MHz
+# Requested rep-delay 0.0ms was applied
+###################################################################
+Configuration set successfully!
+
+Start Laser Tuning...
+DAC-Sweep started
+###################################################################
+# ADC-Config:
+# Select sample-rate-divider=1 for sample-rate=125MHz
+# Syncing DAC @ 112.5MHz with ADC @ 125MHz
+# ADC configured for Oversampling
+# Non-Evenly spaced ADC-Sample for burst-size = 1.1111111111111112
+# Time-Gap: 0.0008888888888888887us
+# Applied Burst-Size: 2
+# Applied ADC-Samples/Sweep: 250
+# Configured ADC in Sync-Mode for 524 DAC-Sweeps:
+# Measure-Time-Span: 0.5822222222222222ms
+###################################################################
+start sampling 2 TCP-Packages...
+received all data from RedPitaya
+###################################################################
+# LUT-Setup
+# Wrote LUT-Values to ./lut_port0.csv
+send file: ./lut_port0.csv to root@10.42.0.124:app/lut/lut_port0.csv
+###################################################################
+# DAC-BRAM-CTRL-Config @ Port 0:
+# Requested dwell-time 8e-06ms equals applied dwell-time!
+# Requested rep-delay 0.0ms was applied
+###################################################################
+Configuration set successfully!
+
+Start Laser Tuning...
+DAC-Sweep started
+###################################################################
+# ADC-Config:
+# Select sample-rate-divider=1 for sample-rate=125MHz
+# Syncing DAC @ 125.0MHz with ADC @ 125MHz
+# ADC configured for Even-Sampling
+# Applied Burst-Size: 1
+# Applied ADC-Samples/Sweep: 125
+# Configured ADC in Sync-Mode for 1048 DAC-Sweeps:
+# Measure-Time-Span: 1.048ms
+###################################################################
+start sampling 2 TCP-Packages...
+received all data from RedPitaya
