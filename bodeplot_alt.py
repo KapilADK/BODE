@@ -1,74 +1,52 @@
 import numpy as np
-import matplotlib.pyplot as plt
 
-def compute_bode_plot(input_signal, output_signal, fs):
+def average_adc_samples(dac_steps, num_periods, adc_samples):
     """
-    Compute the Bode plot from input and output signals.
-
-    :param input_signal: Array of input signal values.
-    :param output_signal: Array of output signal values.
-    :param fs: Sampling frequency (Hz).
-
-    :return: Frequencies, magnitudes (dB), and phases (degrees).
-    """
-    # Compute the number of samples
-    n = len(input_signal)
+    Average ADC samples over a given number of DAC steps and periods.
     
-    # Compute the Fourier Transforms
-    freq = np.fft.fftfreq(n, d=1/fs)
-    input_fft = np.fft.fft(input_signal)
-    output_fft = np.fft.fft(output_signal)
-
-    # Compute the magnitude and phase of the transfer function
-    H_fft = output_fft / input_fft
-    magnitude = np.abs(H_fft)
-    phase = np.angle(H_fft, deg=True)
-
-    # Convert magnitude to dB
-    magnitude_db = 20 * np.log10(magnitude)
-
-    # Remove negative frequencies
-    positive_freqs = freq > 0
-    freq = freq[positive_freqs]
-    magnitude_db = magnitude_db[positive_freqs]
-    phase = phase[positive_freqs]
-
-    return freq, magnitude_db, phase
-
-def plot_bode(freq, magnitude_db, phase):
+    Parameters:
+    - dac_steps: Number of DAC steps
+    - num_periods: Number of periods over which the ADC samples are taken
+    - adc_samples: Array of ADC samples
+    
+    Returns:
+    - A numpy array containing the mean ADC sample values for each DAC step
     """
-    Plot the Bode diagram.
+    N = len(adc_samples)
+    N_p = N // num_periods  # Number of samples per period
+    
+    mean_adc_samples = np.zeros(dac_steps)
+    
+    # Calculate number of samples per DAC step in one period
+    samples_per_dac_step = N_p // dac_steps
+    
+    for i in range(dac_steps):
+        # Indices for the current DAC step in each period
+        start_idx = i * samples_per_dac_step
+        end_idx = (i + 1) * samples_per_dac_step
+        
+        # Collect samples from all periods for the current DAC step
+        collected_samples = []
+        for period in range(num_periods):
+            period_start_idx = period * N_p
+            period_end_idx = period_start_idx + N_p
+            
+            collected_samples.extend(adc_samples[period_start_idx + start_idx:period_start_idx + end_idx])
+        
+        # Compute the mean of the collected samples
+        mean_adc_samples[i] = np.mean(collected_samples)
+    
+    return mean_adc_samples
 
-    :param freq: Array of frequencies.
-    :param magnitude_db: Magnitude in dB.
-    :param phase: Phase in degrees.
-    """
-    plt.figure()
+# Example usage:
+P = 4  # Number of periods
+D = 125  # Number of DAC steps
 
-    # Plot magnitude
-    plt.subplot(2, 1, 1)
-    plt.semilogx(freq, magnitude_db)
-    plt.title('Bode Plot')
-    plt.ylabel('Magnitude (dB)')
-    plt.grid(True, which='both')
+# Simulated ADC samples (for example purposes)
+N = 2500  # Total ADC samples for 4 periods
+t = np.linspace(0, P * 2 * np.pi, N)
+adc_samples = np.sin(t)
 
-    # Plot phase
-    plt.subplot(2, 1, 2)
-    plt.semilogx(freq, phase)
-    plt.xlabel('Frequency (Hz)')
-    plt.ylabel('Phase (degrees)')
-    plt.grid(True, which='both')
+mean_adc_samples = average_adc_samples(D, P, adc_samples)
 
-    plt.show()
-
-# Example usage
-fs = 1e6  # 1 MHz sampling frequency
-t = np.arange(0, 1, 1/fs)  # 1 second duration
-input_signal = np.sin(2 * np.pi * 1e3 * t)  # 1 kHz sine wave as input signal
-output_signal = 0.5 * np.sin(2 * np.pi * 1e3 * t + np.pi / 4)  # 1 kHz sine wave with phase shift
-
-# Compute the Bode plot
-freq, magnitude_db, phase = compute_bode_plot(input_signal, output_signal, fs)
-
-# Plot the Bode diagram
-plot_bode(freq, magnitude_db, phase)
+print(mean_adc_samples)
